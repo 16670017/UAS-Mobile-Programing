@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Informatika UPGRIS</string>
+    <string name="visi">Menjadi Informatikayang Keunggulan Program Studi dan Berjatidiri pada 2025</string>
+    <string name="misi1">a. Menyelenggarakan pendidikan berbasis ilmu pengetahuan dan teknologi terapan di bidang Informasi unggul dan berjati diri.</string>
+    <string name="misi2">b. Melakukan penelitian sebagai dasar untuk meningkatkan kualitas pembelajaran Informatika untuk mendukung pembangunan nasional</string>
+    <string name="misi3">c. Melaksanakan pengabdian kepada masyarakat sebagai implementasi dari hasil penelitian untuk meningkatkan kualitas dan kesejahteraan</string>
+    <string name="misi4">d. Memberikan imitasi dalam pendidikan, penelitian dan pengabdian kepada masyarakat Unggul, Peduli, gigih, religius, Udara-Integritas dan Sinergis (UPGRIS)</string>
+    <string name="misi5">e. Melakukan kemitraan dengan institusi di dalam dan di luar negeri</string>
 </resources>
