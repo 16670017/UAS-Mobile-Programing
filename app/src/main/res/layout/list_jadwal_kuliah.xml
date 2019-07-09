@@ -11,21 +11,18 @@
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <ImageView android:layout_width="50dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/buku"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="10dp"
             android:layout_weight="1">
 
 
             <TextView android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:text="Nama MK"
                 android:id="@+id/listNamaMatakuliahDosenJadwal"
@@ -39,18 +36,23 @@
                 android:id="@+id/listNamaDosenJadwal"
                 android:textColor="@android:color/darker_gray"/>
         </LinearLayout>
-        <TextView android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:textSize="10dp"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:text="MINGGU 14:30 GP 601"
-            android:id="@+id/listNamaHariJadwal"
-            android:layout_marginRight="8dp"
-            android:textColor="@android:color/holo_red_light"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/gradientbackground"
+            android:layout_height="match_parent">
+            <TextView android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:text="MINGGU 14:30 GP 601"
+                android:id="@+id/listNamaHariJadwal"
+                android:layout_marginRight="8dp"
+                android:textColor="#ffffff"/>
 
-        <View android:layout_width="5dp" android:layout_height="match_parent"
-            android:background="@color/colorPrimary"/>
+        </LinearLayout>
 
     </LinearLayout>
 
